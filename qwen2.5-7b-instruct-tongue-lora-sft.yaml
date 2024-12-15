@@ -1,6 +1,6 @@
 # NCCL_IB_DISABLE=1 NCCL_P2P_DISABLE=1 CUDA_VISIBLE_DEVICES=1,2 llamafactory-cli train qwen2.5-7b-lora-pretrain.yaml
 ### model
-model_name_or_path: /home/sc/LLM_Learning/checkpoints/Qwen2.5-7B-Instruct
+model_name_or_path: checkpoints/Qwen2.5-7B-Instruct
 
 ### method
 stage: sft

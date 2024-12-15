@@ -55,6 +55,7 @@ run Dataset_Generate.ipynb and process_data.ipynb
 
 # Run the Fine-tuning
 llamafactory-cli train qwen2.5-7b-instruct-tongue-lora-sft.yaml
+llamafactory-cli export qwen2.5-7b-instruct-tongue-lora-merge.yaml
 
 ```
 
