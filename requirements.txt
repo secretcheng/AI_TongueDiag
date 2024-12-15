@@ -1,0 +1,9 @@
+llama-index
+llama-index-core
+llama-index-program-openai
+llama-index-question-gen-openai 
+llama-index-llms-ollama
+llama-index-embeddings-ollama 
+markdown-it-py
+pandas
+tqdm
