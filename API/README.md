@@ -42,6 +42,7 @@ pip install qwen-vl-utils[decord]
 ```
 
 #### 1.2 API Service Setup
+> **Use LLaMA Factory**  
 
 Configure the `qwen2-vl-inference.yaml` file. A template is provided below:
 
@@ -63,6 +64,20 @@ Start the API service with the following command:
 API_PORT=8000 llamafactory-cli api qwen2-vl-inference.yaml
 ```
 
+> **Use FastAPI+transformers**
+
+```bash
+python main.py
+```
+
+> **Use vllm**  
+
+`qwen2-vl-inference.yaml` has infer_backend argument, change it to vllm  
+or use this command to start the API service:
+```bash
+python -m vllm.entrypoints.openai.api_server --served-model-name Qwen2-VL-7B-Instruct --model xxx --gpu_memory_utilization 0.90 --max_model_len 12800 --host localhost --port 8000
+```
+
 ### 2. Docker Installation
 
 Docker installation is coming soon. Stay tuned!
@@ -70,7 +85,8 @@ Docker installation is coming soon. Stay tuned!
 ---
 
 ## 🚀 Usage
-
+Each framework starts with a slightly different API call, as described in `test_api.ipynb`. 
+The following examples use the **LLaMA Factory** framework as an example.
 ### 1. Using cURL
 
 ```bash
