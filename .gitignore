@@ -1,0 +1,24 @@
+# Vue3 Frontend Project
+frontend/
+# Ignore node_modules in the frontend directory
+frontend/node_modules/
+# Ignore build output
+frontend/dist/
+frontend/build/
+# Ignore npm debug logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# backend
+backend/
+
+# data
+data/
+
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo

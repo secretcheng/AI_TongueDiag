@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![AI](https://img.shields.io/badge/AI-Powered-orange.svg)]()
 
@@ -88,10 +88,10 @@ For any queries or suggestions, please open an issue in the repository.
 Built with ❤️ for advancing Traditional Chinese Medicine
 
 ```
-     _    ___   
-    / \  |_ _|  
-   / _ \  | |   
-  / ___ \ | |   
- /_/   \_\___|  
+     _    ___   ___              _____  _____ __  __ 
+    / \  |_ _| |  ___|__  _ __ |_   _|/ ____|  \/  |
+   / _ \  | |  | |_ / _ \| '__|  | | | |    | \  / |
+  / ___ \ | |  |  _| (_) | |     | | | |    | |\/| |
+ /_/   \_\___| |_|  \___/|_|     |_|  \____|_|  |_|
 ```
 </div>

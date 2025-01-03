@@ -7,3 +7,4 @@ llama-index-embeddings-ollama
 markdown-it-py
 pandas
 tqdm
+ipykernel
