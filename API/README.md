@@ -41,7 +41,11 @@ pip install -e ".[torch,metrics,deepspeed]"
 pip install qwen-vl-utils[decord]
 ```
 
-#### 1.2 API Service Setup
+#### 1.2 Model Checkpoint Download
+This model checkpoint: https://huggingface.co/secretcheng/qwen2vl_tongue_test is recommended, it is fine-tuned on Private Tongue image data.
+Also you can use the original Qwen2-VL model: https://huggingface.co/Qwen/Qwen-VL-7B-Instruct. However, the format may not be consistent with the output, and the output content is slightly different.
+
+#### 1.3 API Service Setup
 > **Use LLaMA Factory**  
 
 Configure the `qwen2-vl-inference.yaml` file. A template is provided below:
@@ -77,6 +81,7 @@ or use this command to start the API service:
 ```bash
 python -m vllm.entrypoints.openai.api_server --served-model-name Qwen2-VL-7B-Instruct --model xxx --gpu_memory_utilization 0.90 --max_model_len 12800 --host localhost --port 8000
 ```
+
 
 ### 2. Docker Installation
 
